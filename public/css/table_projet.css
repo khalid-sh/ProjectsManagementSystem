@@ -1,0 +1,264 @@
+.mycontent{
+padding-bottom: 300px;
+}
+.mycontent h1 {
+	text-align: left;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 17px;
+}
+.mycontent .mycontent-footer p {
+	color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+.mycontent .mycontent-footer p a {
+	color: inherit;
+	font-weight: bold;
+}
+
+/*	--------------------------------------------------
+	:: Table Filter
+	-------------------------------------------------- */
+.mypanel {
+	border: 1px solid #ddd;
+	background-color: #fcfcfc;
+	width: 124%;
+	border-radius: 7px;
+}
+.mypanel .btn-group {
+	margin: 15px 0 30px ;
+	padding-left: 7px;
+}
+.mypanel .btn-group .btn {
+	transition: background-color .3s ease;
+}
+.table-filter {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+.table-filter tbody tr:hover {
+	cursor: pointer;
+	background-color: #eee;
+}
+.table-filter tbody tr td {
+	padding: 10px;
+	vertical-align: middle;
+	border-top-color: #eee;
+}
+.table-filter tbody tr.selected td {
+	background-color: #eee;
+}
+.table-filter tr td:first-child {
+	width: 46px;
+}
+.table-filter tr td:nth-child(2) {
+	width: 43px;
+}
+.ckbox {
+	position: relative;
+}
+.ckbox input[type="checkbox"] {
+	opacity: 0;
+}
+.ckbox label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ckbox label:before {
+	content: '';
+	top: 1px;
+	left: 0;
+	width: 18px;
+	height: 18px;
+	display: block;
+	position: absolute;
+	border-radius: 2px;
+	border: 1px solid #bbb;
+	background-color: #fff;
+}
+.ckbox input[type="checkbox"]:checked + label:before {
+	border-color: #2BBCDE;
+	background-color: #2BBCDE;
+}
+.ckbox input[type="checkbox"]:checked + label:after {
+	top: 3px;
+	left: 3.5px;
+	content: '\e013';
+	color: #fff;
+	font-size: 11px;
+	font-family: 'Glyphicons Halflings';
+	position: absolute;
+}
+.table-filter .star {
+	color: #ccc;
+	text-align: center;
+	display: block;
+}
+.table-filter .star.star-checked {
+	color: #F0AD4E;
+}
+.table-filter .star:hover {
+	color: #ccc;
+}
+.table-filter .star.star-checked:hover {
+	color: #F0AD4E;
+}
+.table-filter .media-photo {
+	width: 70px;
+    margin-right: 13px;
+    margin-top: 6px
+}
+.table-filter .media-body {
+    display: block;
+    /* Had to use this style to force the div to expand (wasn't necessary with my bootstrap version 3.3.6) */
+}
+.table-filter .media-meta {
+	font-size: 13px;
+    color: #999;
+    padding-left: 10px;
+}
+.table-filter .media .title {
+	color: #6c757d;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 10px;
+
+}
+.table-filter .media .title span {
+	font-size: 1.2em;
+	margin-right: 20px;
+}
+.table-filter .media .title span.Démarrage {
+	color: #5cb85c;
+	padding-left: 26px;
+}
+.table-filter .media .title span.Planning {
+	color: #f0ad4e;
+	padding-left: 26px;
+}
+.table-filter .media .title span.Exécution {
+	color: #d9534f;
+	padding-left: 26px;
+}
+.table-filter .media .summary {
+	font-size: 23px;
+    padding-left: 10px;
+}
+/******  profile projet css ******/
+/* body{
+    background: -webkit-linear-gradient(left, #e6e5ec, #dde4e6);
+} */
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #e9ecef85;
+    border: solid #e4eaf1ba;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #1f5684;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color:#47535d;
+}
+.clt{
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    margin: 6px;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 1% ;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }

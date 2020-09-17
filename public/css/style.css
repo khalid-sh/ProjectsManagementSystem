@@ -1,0 +1,25 @@
+/* le css du login */
+h4 {
+  padding-left: 85px;
+    text-align:center; 
+    color:#ffd400 ;
+    text-shadow: 1px 1px 0px #FFF;
+    
+  }
+  .modal-header{
+      background-color:#666 ;
+      font-size: 25px;
+      height: 70px;
+      text-align:center; 
+      color:#ffd400 ;
+      text-shadow: 1px 1px 0px #FFF;
+  }
+  .modal-footer{
+    height: 47px;
+  }
+  body {
+    margin: auto;
+    background: #eaeaea;  
+    font-family: 'Open Sans', sans-serif;
+  }
+ 
